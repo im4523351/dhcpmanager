@@ -1,0 +1,11 @@
+README de dhcp_manager
+
+
+# location of the .conf file. (subnet files are included in .conf)
+conf_file=/etc/dhcp/dhcpd.conf
+
+# location of the .conf file with static ip
+static_conf_file=/etc/dhcp/dhcp-fijas.conf
+
+# location of the .leases file.
+leases_file=/var/lib/dhcpd/dhcpd.leases
